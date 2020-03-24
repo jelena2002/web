@@ -1,0 +1,116 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+    background:url(POZADINA.jpg) no-repeat left top;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+main {
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 1px 1px 18px black; 
+}
+a {
+    text-decoration: none;
+}
+header, #baner, footer {
+    overflow:auto;}
+
+header, footer {
+    background-color: #eeeeee;
+   height: 70px;}
+
+header h1 a{
+    color: #2f303a;
+    float: left;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 15px 40px;
+}
+nav {
+    float: right;
+    font-size: 20px;
+    margin-right: 40px;
+}
+nav a {
+    display: inline-block;
+    color: #2f303a;
+    padding: 23px 10px;
+}
+nav a:last-child {
+    color: #ff4200;
+    font-weight: bold;
+}
+nav a:hover, nav a:focus{
+        background-color: #2f303a;
+        color: white;
+        transition: 0.5s;
+    }
+
+#forma {
+    padding: 40px 40px;
+    clear: both;
+    height: 620px;
+    background:url(banner.jpg) no-repeat left top;
+    background-size: cover;
+    height: 580px;}
+     
+
+
+   form {
+
+       background-color: rgba(46, 46, 54, 0.9);
+       width: 50%;
+       margin: 20px auto;
+       padding: 12px;
+       border-radius: 12px;
+   }
+     form input, form textarea, form label {
+        display: block;
+        width:80%;
+        font-size: 18px;
+        padding: 5px;
+        margin: 10px auto;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+    
+    }
+     form input, form textarea {
+        border: 2px solid #ff4200;
+        background-color: #45464e;
+    }
+    form button {
+        display: block;
+        background-color: #ff4200;
+        color: white;
+        border: 1px solid #ff4200;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin: 25px auto;
+        font-size: 16px;
+    }
+    form button:hover {
+        padding: 5px 50px;
+        transition:0.2s;
+    }
+    form input:focus, textarea:focus {
+        background-color: rgb(240, 236, 236);
+        color:black;
+    }
+footer {
+    text-align: center;
+    padding: 25px;
+
+
+    
+
+}
